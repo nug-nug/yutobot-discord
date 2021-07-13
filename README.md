@@ -1,6 +1,11 @@
 # yutobot-discord
 My online presence automator.
 
+## Develop
+1. [Create a discord bot](https://discord.com/developers/applications) and add it to a test Discord server with Admin permissions
+2. Do the same steps as deploy (below), except for the last step
+3. Run `yarn develop`
+
 ## Deploy
 1. `touch .env` at the project root and define these:
 ```
@@ -20,3 +25,8 @@ yarn install
 yarn build
 yarn deploy
 ```
+
+## Contributors
+Feel free to add yourself :)
+- [nug-nug](https://github.com/nug-nug)
+- [kale](https://github.com/kayleyseow)
